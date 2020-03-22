@@ -3,30 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>TOP|Ibaraki Univ. Welcome Festival 2020 Official WEB</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../main.css">
 </head>
 <body>
 <header>
-    Ibaraki Univ. Welcome Festival 2020
+    <h2>Ibaraki Univ. Welcome Festival 2020 Official Website</h2>
     <a href="../index.html">日本語</a>
+    <span id="update-date"><script>const modified = new Date(document.lastModified);
+    const year = modified.getFullYear();
+    const month = modified.getMonth();
+    const date = modified.getDate();
+    const hour = modified.getHours();
+    const minutes = modified.getMinutes();
+    let order = "th ";
+    switch (date % 10) {
+        case 1:
+            order = "st ";
+            break;
+        case 2:
+            order = "nd ";
+            break;
+        case 3:
+            order = "rd ";
+            break;
+    }
+    const month_english_list = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
+    if (minutes < 10) {
+        document.write("Last Update：" + date + order + month_english_list[month] + " " + year + ", " + hour + ":0" + minutes);
+    } else {
+        document.write("Last Update：" + date + order + month_english_list[month] + " " + year + ", " + hour + ":" + minutes);
+    }
+    </script></span>
 </header>
-<nav>
-    <menu>
-        <ul>
-            <li><a href="">TOP</a></li>
-            <li><a href="">Summary</a></li>
-            <li><a href="">List of Clubs</a></li>
-            <li><a href="">Information</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Links</a></li>
-            <li><a href="">Old</a></li>
-            <li><a href="">For Clubs</a></li>
-        </ul>
-    </menu>
-</nav>
+<!--<nav>-->
+<!--    <menu>-->
+<!--        <ul>-->
+<!--            <li><a href="index.html">TOP</a></li>-->
+<!--            <li><a href="">Summary</a></li>-->
+<!--            <li><a href="">List of Clubs</a></li>-->
+<!--            <li><a href="">Information</a></li>-->
+<!--            <li><a href="">Contact</a></li>-->
+<!--            <li><a href="">Links</a></li>-->
+<!--            <li><a href="">Old</a></li>-->
+<!--            <li><a href="">For Clubs</a></li>-->
+<!--        </ul>-->
+<!--    </menu>-->
+<!--</nav>-->
 <div id="main-container">
     <main>
         Article
+        <h1>UNDER CONSTRUCTION</h1>
     </main>
     <aside>
         <article>

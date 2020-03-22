@@ -1,5 +1,12 @@
 body {
+    /*margin: 0;*/
+    background-color: beige;
+    font-family: 'Noto Sans JP', sans-serif;
+    /*font-family: 'Noto Serif JP', serif;*/
+}
 
+header > * {
+    display: inline-block;
 }
 
 main, aside {
@@ -9,17 +16,46 @@ main, aside {
 
 main {
     width: 70%;
-    background-color: red;
+    /*background-color: red;*/
 }
+
 aside {
-    background-color: blue;
     width: 29%;
+    /*background-color: blue;*/
+}
+
+menu {
+    padding: 0;
+    text-align: center;
 }
 
 menu > ul > li {
     display: inline-block;
+    margin: 0 5px;
 }
+menu > ul > li > a {
+    padding: 5px;
+    text-decoration: none;
+    border: 2px burlywood solid;
+    background-color: whitesmoke;
+    color: black;
+}
+
 
 footer {
     text-align: right;
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'Noto Serif JP', serif;
+}
+
+#main-container {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: black;
 }
