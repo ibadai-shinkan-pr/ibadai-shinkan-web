@@ -1,0 +1,25 @@
+body {
+
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 70%;
+    background-color: red;
+}
+aside {
+    background-color: blue;
+    width: 29%;
+}
+
+menu > ul > li {
+    display: inline-block;
+}
+
+footer {
+    text-align: right;
+}
