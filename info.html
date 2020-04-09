@@ -4,32 +4,23 @@
     <meta charset="UTF-8">
     <title>団体向け情報|茨大新歓祭2020公式WEB</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
 </head>
 <body>
 <header>
     <a href="index.html" class="no-decoration"><h1>茨大新歓祭2020公式WEB</h1></a>
-<!--    <a href="en/index.html">English</a>-->
-    <span id="update-date"><script>const modified = new Date(document.lastModified);
-    const year = modified.getFullYear();
-    const month = modified.getMonth() + 1;
-    const date = modified.getDate();
-    const hour = modified.getHours();
-    const minutes = modified.getMinutes();
-    if (minutes < 10) {
-        document.write("最終更新：" + year + "年" + month + "月" + date + "日" + hour + ":0" + minutes);
-    } else {
-        document.write("最終更新：" + year + "年" + month + "月" + date + "日" + hour + ":" + minutes);
-    }
-    </script></span>
+    <!--    <a href="en/index.html">English</a>-->
+    <span id="update-date"><script src="assets/js/update-date.js"></script></span>
 </header>
 <nav>
     <menu>
         <ul>
             <li><a href="index.html">TOP</a></li>
             <li><a href="info.html">団体向け情報</a></li>
+            <li><a href="introduction.html">[特設]団体紹介</a></li>
             <li><a href="list.html">企画一覧</a></li>
-            <li><a href="map.html">会場案内</a></li>
+<li><a href="map.html">会場案内</a></li>
             <li><a href="link.html">連絡先・リンク集</a></li>
         </ul>
     </menu>
