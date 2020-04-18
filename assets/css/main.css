@@ -88,3 +88,9 @@ details[open] {
 .alert {
     color: red;
 }
+
+.inline {
+    display: inline;
+    height: 1em;
+    vertical-align: middle;
+}
