@@ -1,4 +1,71 @@
-.no-decoration {
+html {
+    font-family: "Noto Sans JP";
+}
+
+.no-decoration, .no-decoration a {
     text-decoration: none;
     color: black;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.no-item-style > li {
+    list-style: none;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.flex-list {
+    /*float: left;*/
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.button-list > li {
+    /*display: block;*/
+    background: black;
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    flex-grow: 1;
+    border: wheat 1px solid;
+}
+
+.button-list > li :hover {
+    background: darkblue;
+}
+
+.button-list > li > a {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: center;
+    color: white;
+}
+
+
+.bold * {
+    font-weight: bold;
+}
+
+.gray-out {
+    background: gray !important;
+}
+
+.gray-out * {
+    color: white !important;
+}
+
+article {
+    margin: 10px;
 }

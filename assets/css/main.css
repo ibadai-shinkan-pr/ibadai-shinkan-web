@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-rows: 100px 50px 700px 50px;
+    grid-template-columns: 33.3% 33.3% 1fr;
+    grid-template-areas:
+            "header header header"
+            "nav nav nav"
+            "main main aside"
+            "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    /*background: red;*/
+}
+nav {
+    grid-area: nav;
+    /*background: pink;*/
+}
+main {
+    grid-area: main;
+    /*background: purple;*/
+}
+aside {
+    grid-area: aside;
+    /*background: blue;*/
+}
+
+footer {
+    grid-area: footer;
+    /*background: blueviolet;*/
+}
