@@ -69,3 +69,18 @@ html {
 article {
     margin: 10px;
 }
+
+.inline {
+    display: inline;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid thick;
+}
+
+th,td {
+    border: solid thin;
+    text-align: center;
+    padding: 0;
+}
