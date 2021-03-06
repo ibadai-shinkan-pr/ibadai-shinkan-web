@@ -4,7 +4,7 @@ html {
 
 .no-decoration, .no-decoration a {
     text-decoration: none;
-    color: black;
+    color: #002E00;
 }
 
 .right-align {
@@ -32,7 +32,7 @@ html {
 
 .button-list > li {
     /*display: block;*/
-    background: black;
+    background: #002E00;
     width: 140px;
     height: 60px;
     text-align: center;
@@ -83,4 +83,9 @@ th,td {
     border: solid thin;
     text-align: center;
     padding: 0;
+    min-width: 9em;
+}
+
+footer {
+    border-top: #002E00 solid 1px;
 }
