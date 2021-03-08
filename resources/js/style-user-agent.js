@@ -26,10 +26,15 @@ if (isMobile) {
 if (url.indexOf('index.html') > 0 && !isMobile) {
     head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" type="text/css" href="resources/css/index-main.css">');
 }
+// if (url.indexOf('circles.html') > 0 && isMobile) {
+//     head.insertAdjacentHTML('beforeend', '<script src="resources/js/tab.js"></script>');
+// }
 
 window.onload = function () {
     let footer = document.getElementById('footer');
+    // let title = document.getElementById('title');
     if (isMobile) {
+        // title.insertAdjacentText('afterend', '(Closed Alpha Version)');
         footer.insertAdjacentHTML('beforeend', `<button onclick="window.location.search = '?pc'">PC版はこちら</button>`)
     } else {
         footer.insertAdjacentHTML('beforeend', `<button class="center" onclick="window.location.search = '?sp'">Mobile版はこちら</button>`)

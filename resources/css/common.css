@@ -23,6 +23,7 @@ footer {
 }
 
 table {
+    width: 100%;
     margin-left:auto;
     margin-right:auto;
     border-collapse: collapse;
@@ -32,18 +33,19 @@ table {
 
 th,td {
     border: solid thin;
-    text-align: center;
     padding: 0;
     min-width: 9em;
 }
 
-section section {
-    text-indent: 4em;
+td {
+    ;
 }
-.center-table {
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
+
+summary p {
+    margin: 0;
+}
+article > section {
+    margin-top: 10px;
 }
 
 article > section > details > summary {
@@ -52,13 +54,15 @@ article > section > details > summary {
 }
 
 article > section > details > section {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     background: #EEFFEE;
     border: #0A4E0A dashed 1px;
 }
 
 h1 {
     color: #00A497 !important;
+    -webkit-text-stroke-color: #002E00;
+    -webkit-text-stroke-width: thin;
 }
 .accent {
     color: #CF464B;

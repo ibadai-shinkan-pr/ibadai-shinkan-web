@@ -12,6 +12,7 @@ header {
     left: 0;
     height: 170px;
     /*background: red;*/
+    border-bottom: darkgreen 2px solid;
 }
 
 main {
@@ -61,4 +62,18 @@ h1 {
 
 article > section > details > section {
     padding: 5px;
+}
+
+section section {
+    text-indent: 4em;
+}
+
+.inline-heading {
+    display: inline-block;
+    width: 20em;
+    text-align: left;
+}
+
+.inline {
+    display: inline;
 }
