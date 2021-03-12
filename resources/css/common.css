@@ -71,3 +71,13 @@ h1 {
 th {
     background: deepskyblue;
 }
+
+/*dd:has(iframe) {*/
+/*    text-align: center!important;*/
+/*}*/
+
+
+iframe {
+    display: block;
+    margin: auto;
+}
